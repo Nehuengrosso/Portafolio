@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: #1F0118;
+}
+
+.pantallaIndex{
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+    background-color: #1F0118;
+}
+
+.contenedorNav{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: #1F0118;
+}
+
+.logoSuperior{
+    color: #D0C800;
+    font-size: 50px;
+}
+
+.imagenIndex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 240px;
+    background-image: url(./img/8f62272a1defa4b809a7df7f2675fd1f.jpg);
+    border-radius: 10px;
+}
+
+.textoImagenIndex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 638px;
+    height: 152px;
+    background: rgba(254, 254, 254, 0.76);
+    border-radius: 12px;
+}
+
+.textoInside{
+    font-size: 50px;
+}
+
+.contenedorCircles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+}
+
+.fotoLauti{
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    transition: 1s;
+}
+.logoCabanas{
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    transition: 1s;
+}
+.logoApolo{
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    transition: 1s;
+}
+.logoGithub{
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    transition: 1s;
+}
+.logoInsta{
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    transition: 1s;
+}
+.logoGmail{
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    transition: 1s;
+    
+}
+
+
+/*hover logos*/
+
+.fotoLauti:hover{
+    transform: scale(1.5, 1.5);
+    
+}
+.logoCabanas:hover{
+    transform: scale(1.5, 1.5);
+    
+}
+.logoApolo:hover{
+    transform: scale(1.5, 1.5);
+}
+.logoGithub:hover{
+    transform: scale(1.5, 1.5);
+}
+.logoInsta:hover{
+    transform: scale(1.5, 1.5);
+}
+.logoGmail:hover{
+    transform: scale(1.5, 1.5);
+}
